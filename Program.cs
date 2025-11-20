@@ -158,22 +158,7 @@ namespace ConsoleApp
             RunDebugging();
 
             Console.WriteLine();
-            Console.WriteLine("Task 7:");
-            /* 
-             * RESEARCH ON HOW CONSTRUCTOR HELP IN SOFTWARE DEVELOPEMENT: 
-             Constructors are very important in object oriented programming because they help us to create object in proper initial state. 
-            When we create object, sometimes we must give some required values, like id, name, or connection string, and constructor forces user to pass these values so object is not half‑initialized. 
-            Constructors also reduce repeating code, because all common initialization logic is written in one place inside the class.
-             */
 
-            /*
-             * REASEARCH ON ONE OF THE OOP PRINCIPLES: 
-             One important concept of object oriented programming is encapsulation. Encapsulation means we hide internal data of the class and only expose necessary methods or properties to the outside world. 
-            This helps to protect data from invalid changes and makes code easier to maintain, because other parts of program use only public interface, not internal implementation.
-
-             A class is like a blueprint or design of an object, it defines which fields, properties, and methods an object will have. 
-            An object is one actual instance created from this class during program execution, with its own values in fields and properties. In simple words, class is plan, object is real thing created from that plan.
-             */
             Console.ReadLine();
         }
 
